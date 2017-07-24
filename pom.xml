@@ -20,6 +20,7 @@
         <module>bootundertow</module>
         <module>bootjersey</module>
         <module>bootservlet</module>
+        <module>springmvc</module>
     </modules>
 
     <properties>
