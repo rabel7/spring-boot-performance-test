@@ -21,6 +21,7 @@
         <module>bootjersey</module>
         <module>bootservlet</module>
         <module>springmvc</module>
+        <module>bootdocker</module>
     </modules>
 
     <properties>
