@@ -16,6 +16,10 @@ import java.util.Map;
 @Component
 public class JersyTestController {
 
+    /**
+     * http://127.0.0.1:port/rest/hello
+     * @return
+     */
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/hello")
