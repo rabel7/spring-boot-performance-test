@@ -17,6 +17,7 @@
 
     <modules>
         <module>boottomcat</module>
+        <module>boottomcatwar</module>
         <module>bootundertow</module>
         <module>bootjersey</module>
         <module>bootservlet</module>

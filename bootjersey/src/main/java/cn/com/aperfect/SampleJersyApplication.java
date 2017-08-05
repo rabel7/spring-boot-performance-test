@@ -1,8 +1,6 @@
 package cn.com.aperfect;
 
 import cn.com.aperfect.config.JerseyConfig;
-import org.glassfish.jersey.server.ResourceConfig;
-import org.glassfish.jersey.server.spring.scope.RequestContextFilter;
 import org.glassfish.jersey.servlet.ServletContainer;
 import org.glassfish.jersey.servlet.ServletProperties;
 import org.springframework.boot.SpringApplication;

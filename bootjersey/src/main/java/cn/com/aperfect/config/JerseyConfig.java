@@ -1,6 +1,7 @@
 package cn.com.aperfect.config;
 
 import org.glassfish.jersey.server.ResourceConfig;
+import org.glassfish.jersey.server.internal.process.Endpoint;
 import org.glassfish.jersey.server.spring.scope.RequestContextFilter;
 
 /**
@@ -12,5 +13,6 @@ public class JerseyConfig extends ResourceConfig {
         register(RequestContextFilter.class);
         //配置restful package.
         packages("cn.com.aperfect.controller");
+        register(Endpoint.class);
     }
 }

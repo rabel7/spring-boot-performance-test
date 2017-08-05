@@ -16,18 +16,24 @@ import java.util.Map;
 @Component
 public class JersyTestController {
 
-    /**
-     * http://127.0.0.1:port/rest/hello
-     * @return
-     */
+//    /**
+//     * http://127.0.0.1:port/rest/hello
+//     * @return
+//     */
+//    @GET
+//    @Produces(MediaType.APPLICATION_JSON)
+//    @Path("/hello")
+//    public Map<String, Object> hello() {
+//        Map<String, Object> map = new HashMap<>();
+//        map.put("code", "1");
+//        map.put("codeMsg", "success");
+//        return map;
+//    }
+
     @GET
-    @Produces(MediaType.APPLICATION_JSON)
-    @Path("/hello")
-    public Map<String, Object> hello() {
-        Map<String, Object> map = new HashMap<>();
-        map.put("code", "1");
-        map.put("codeMsg", "success");
-        return map;
+    @Path("/1kString")
+    public String test1kString(@RequestBody String str) {
+        return str;
     }
 
 }
