@@ -24,7 +24,7 @@ public class TomcatTestController {
     }
 
     /**
-     * 根据size初始化字符串11
+     * 根据size初始化字符串
      *
      * @param size size为1表示1kb的字符串
      */
